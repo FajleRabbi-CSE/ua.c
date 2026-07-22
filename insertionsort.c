@@ -9,16 +9,16 @@ void insertionsort(int A[], int n){
             temp=A[j];
             A[j]=A[j - 1];
             A[j - 1] =temp;
-
             j--;
+        }
     }
-
 }
 void printArray(int A[],int n){
     for(int i=0; i < n; i++){
         printf("%d ",A[i]);
-        printf("\n");
     }
+        printf("\n");
+
 }
 int main(){
     int A[]={7,4,5,2,9,1};
